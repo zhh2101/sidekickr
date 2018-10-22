@@ -18,7 +18,7 @@ The sidekickr package allows user to quickly subset the data they need. So far p
 
 ## Installation
 
-You can install the released version of sidekickr from Git Hub. 
+You can install the released version of sidekickr from Git Hub. https://github.com/zhh2101/sidekickr
 
 ## Example
 
