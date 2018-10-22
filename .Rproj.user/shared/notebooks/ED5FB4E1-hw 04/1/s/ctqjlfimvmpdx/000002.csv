@@ -1,0 +1,17 @@
+"0","```r
+df_reg %>% map( ~ lm(infmort ~ gdpcap, data = .)) %>% map(~ coef(.)) %>% map_dbl(\"gdpcap\") %>% sort() %>%
+  kable(caption = \"gdpcap regression coefficients by region (x is the coefficient value)\")
+
+```"
+"1","
+
+|                           |          x|
+|:--------------------------|----------:|
+|South Asia                 | -0.0056587|
+|Sub-Saharan Africa         | -0.0023517|
+|Latin America & Caribbean  | -0.0011025|
+|East Asia & Pacific        | -0.0005995|
+|Europe & Central Asia      | -0.0004920|
+|Middle East & North Africa | -0.0002776|
+|North America              | -0.0000082|
+"

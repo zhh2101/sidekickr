@@ -1,0 +1,18 @@
+Package: sidekickr
+Type: Package
+Title: Helps to keep data clean
+Version: 0.1.0
+Authors@R: person("Bill", "Huang", email = "zhh2101@columbia.edu", role = c("aut", "cre"))
+Description: The sidekickr package allows user to quickly subset the data they need. So far pos_round function
+             added to allow users to pick out rounded positive numbers from a numeric vector. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Suggests: 
+    dplyr,
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.0.9000
+VignetteBuilder: knitr
+

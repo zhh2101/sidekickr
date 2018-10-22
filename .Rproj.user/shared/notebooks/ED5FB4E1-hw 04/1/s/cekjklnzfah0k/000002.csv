@@ -1,0 +1,24 @@
+"0","```r
+summary(model)
+
+```"
+"1","
+Call:
+lm(formula = infmort ~ gdpcap, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-35.269 -19.980  -9.016  12.683 127.142 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  4.857e+01  4.926e-01   98.60   <2e-16 ***
+gdpcap      -9.318e-04  2.077e-05  -44.86   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 26.84 on 4981 degrees of freedom
+  (7545 observations deleted due to missingness)
+Multiple R-squared:  0.2877,	Adjusted R-squared:  0.2876 
+F-statistic:  2012 on 1 and 4981 DF,  p-value: < 2.2e-16
+"

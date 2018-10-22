@@ -1,0 +1,38 @@
+---
+title: "Introduction to Sidekickr"
+author: "Bill Huang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Sidekickr is a new package written by Bill Huang for QMSS 5072 Modern Data Structure. 
+
+
+## Function 
+The sidekickr package allows user to quickly subset the data they need. So far pos_round function added to allow users to pick out rounded positive numbers from a numeric vector. 
+
+## Data 
+
+A dataset containing GDP per capita information for all countries and regions from year 2000 to 2017, obtained from World Development Bank. 
+
+## More Examples
+
+```{r, echo=FALSE, results='asis'}
+library(sidekickr)
+x <- rnorm(15)
+x
+pos_round(x)
+knitr::kable(head(gdp21century, 10))
+```
+

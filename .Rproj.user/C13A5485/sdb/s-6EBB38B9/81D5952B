@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Introduction to Sidekickr\"\nauthor: \"Bill Huang\"\ndate: \"`r Sys.Date()`\"\noutput: rmarkdown::html_vignette\nvignette: >\n  %\\VignetteIndexEntry{Vignette Title}\n  %\\VignetteEngine{knitr::rmarkdown}\n  %\\VignetteEncoding{UTF-8}\n---\n\n```{r setup, include = FALSE}\nknitr::opts_chunk$set(\n  collapse = TRUE,\n  comment = \"#>\"\n)\n```\n\nSidekickr is a new package written by Bill Huang for QMSS 5072 Modern Data Structure. \n\n\n## Function \nThe sidekickr package allows user to quickly subset the data they need. So far pos_round function added to allow users to pick out rounded positive numbers from a numeric vector. \n\n## Data \n\nA dataset containing GDP per capita information for all countries and regions from year 2000 to 2017, obtained from World Development Bank. \n\n## More Examples\n\n```{r, echo=FALSE, results='asis'}\nlibrary(sidekickr)\nx <- rnorm(15)\nx\npos_round(x)\nknitr::kable(head(gdp21century, 10))\n```\n\n",
+    "created" : 1540180769857.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "480952652",
+    "id" : "81D5952B",
+    "lastKnownWriteTime" : 1540218601,
+    "last_content_update" : 1540218601604,
+    "path" : "~/Documents/Huang_Bill/HW 5/sidekickr/vignettes/my-vignette.Rmd",
+    "project_path" : "vignettes/my-vignette.Rmd",
+    "properties" : {
+        "last_setup_crc32" : ""
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

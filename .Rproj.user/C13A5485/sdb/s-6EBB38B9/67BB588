@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: sidekickr\nType: Package\nTitle: Helps to keep data clean\nVersion: 0.1.0\nAuthors@R: person(\"Bill\", \"Huang\", email = \"zhh2101@columbia.edu\", role = c(\"aut\", \"cre\"))\nDescription: The sidekickr package allows user to quickly subset the data they need. So far pos_round function\n             added to allow users to pick out rounded positive numbers from a numeric vector. \nLicense: MIT + file LICENSE\nEncoding: UTF-8\nLazyData: true\nDepends: R (>= 2.10)\nSuggests: \n    dplyr,\n    knitr,\n    rmarkdown\nRoxygenNote: 6.1.0.9000\nVignetteBuilder: knitr\n\n",
+    "created" : 1540174161227.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "850149921",
+    "id" : "67BB588",
+    "lastKnownWriteTime" : 1540183856,
+    "last_content_update" : 1540183856709,
+    "path" : "~/Documents/Huang_Bill/HW 5/sidekickr/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

@@ -1,0 +1,6 @@
+"0","```r
+sum((map_dbl(cou_list6, \"adj.r.squared\") - map_dbl(sq_list4, \"adj.r.squared\"))^2)
+
+```"
+"1","[1] 0
+"

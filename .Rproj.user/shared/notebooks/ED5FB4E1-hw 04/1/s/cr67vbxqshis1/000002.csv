@@ -1,0 +1,4 @@
+"0","```r
+index <- names(base_functions) %>% map(nchar) %>% unlist() %>% which.max()
+names(base_functions)[index]
+```"

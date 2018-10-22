@@ -1,0 +1,4 @@
+"0","```r
+sum(n_args == 0)
+# n_args[n_args == 0]
+```"

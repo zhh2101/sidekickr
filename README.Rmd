@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# sidekickr
+
+The sidekickr package allows user to quickly subset the data they need. So far pos_round function added to allow users to pick out rounded positive numbers from a numeric vector. GDP data is available as gdp21century. 
+
+## Installation
+
+You can install the released version of sidekickr from Git Hub. 
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+## basic example code
+library(sidekickr)
+x <- rnorm(15)
+x
+pos_round(x)
+knitr::kable(head(gdp21century, 10))
+```
+

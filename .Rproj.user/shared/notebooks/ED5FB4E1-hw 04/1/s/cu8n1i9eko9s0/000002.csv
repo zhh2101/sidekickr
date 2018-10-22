@@ -1,0 +1,4 @@
+"0","```r
+n_args <- map(base_functions,formals) %>% map(length) %>% unlist() %>% sort(decreasing = T)
+kable(n_args[1:10], caption = \"Top 10 functions with the most arguments (x is the number of arguments)\")
+```"

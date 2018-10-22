@@ -1,0 +1,10 @@
+"0","```r
+library(WDI)
+library(broom)
+raw <- WDI(country = \"all\", indicator = c(\"NY.GDP.PCAP.PP.KD\",\"SP.DYN.IMRT.IN\"), start = 1960, end = 2017, extra = T)
+df <- raw %>% filter(region != \"Aggregates\") %>% rename(infmort = SP.DYN.IMRT.IN, gdpcap = NY.GDP.PCAP.PP.KD)
+top5 <- df %>% filter(year == \"2017\") %>% select(country, infmort, gdpcap) %>% arrange(desc(infmort)) %>% top_n(5, infmort)
+kable(top5)
+bottom5 <- df %>% filter(year == \"2017\") %>% select(country, infmort, gdpcap) %>% arrange(infmort) %>% top_n(-5, infmort)
+kable(bottom5)
+```"
